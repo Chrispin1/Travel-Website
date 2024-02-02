@@ -5,7 +5,6 @@ import {
   FaTwitter,
   FaFacebookF,
 } from "react-icons/fa";
-import { BsChatSquareDots } from "react-icons/bs";
 import { useState } from "react";
 
 const NavBar = () => {
@@ -47,7 +46,7 @@ const NavBar = () => {
             ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 top-0 left-0 h-screen bg-black/90 w-full px-4 py-7 flex flex-col"
             : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
         }>
-        <ul className="w-full h-full pt-12 text-center">
+        <ul className="w-full h-[90%] pt-12 text-center">
           <li className="text-2xl py-8">
             <a href="/">Home</a>
           </li>
