@@ -15,7 +15,7 @@ const Booking = () => {
           </select>
         </div>
         <div className="flex w-full items-center">
-          <div className="flex flex-col lg:max-w-[250px] my-2 p-2  ">
+          <div className="flex flex-col lg:max-w-[250px] my-2 m-2   ">
             <label htmlFor="checkIn">Check-In</label>
             <input
               className="border rounded-md p-2"
@@ -34,7 +34,7 @@ const Booking = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col w-full my-2 p-2">
+        <div className="flex flex-col w-full my-2 p-2 ">
           <label>Search</label>
           <button>Rates and availabilities</button>
         </div>
